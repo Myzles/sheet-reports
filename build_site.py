@@ -113,7 +113,7 @@ page('terms.html', 'Terms of Service - Scheduled Sheet Reports', f'''<main class
 <ul>
 <li>Pro is sold as a monthly or yearly subscription through Polar, our merchant of record. Polar handles billing, receipts, sales tax and VAT.</li>
 <li>Subscriptions renew automatically until cancelled. You can cancel at any time from the link in your receipt email; Pro stays active until the end of the period you paid for.</li>
-<li>If Pro does not work for you, email us within 14 days of your first payment for a full refund.</li>
+<li>If Pro does not work for you, reply to your receipt within 7 days of a payment for a full refund.</li>
 <li>A license key is for one person. You can use it in any spreadsheet and any Google account you personally use.</li>
 </ul>
 <h2>Email you send</h2>
@@ -152,6 +152,6 @@ page('support.html', 'Support - Scheduled Sheet Reports', f'''<main class="wrap 
 <h2>Can I put numbers from the sheet in the subject?</h2>
 <p>Yes. Use {{{{B2}}}} for a cell on the same tab or {{{{Summary!B2}}}} for another tab. Also {{{{date}}}}, {{{{time}}}}, {{{{day}}}}, {{{{month}}}}, {{{{file}}}} and {{{{tab}}}}.</p>
 <h2>Licenses and billing</h2>
-<p>Your key is in the email Polar sent after checkout. Paste it at the bottom of the sidebar. To cancel, use the link in that email. If Pro ends, nothing is deleted: your oldest daily, weekly or monthly schedule keeps running and the rest pause until you renew. Refunds within 14 days of your first payment, no questions asked.</p>
+<p>Your key is in the email Polar sent after checkout. Paste it at the bottom of the sidebar. To cancel, use the link in that email. If Pro ends, nothing is deleted: your oldest daily, weekly or monthly schedule keeps running and the rest pause until you renew. Refunds: reply to your receipt within 7 days for a full refund, no questions asked. Buying for a team of 3 or more? Reply to any receipt and ask for a team price.</p>
 </main>''')
 print('built', os.listdir(D))
