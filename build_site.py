@@ -9,7 +9,7 @@ HDR = '<header class="wrap top"><a class="brand" href="./">Scheduled Sheet Repor
 FTR = '<footer class="wrap foot"><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a><a href="support.html">Support</a><span>&copy; 2026 Myzles</span><span class="small">Google Sheets, Gmail and Google Workspace are trademarks of Google LLC.</span></footer>'
 YEARLY = 'https://buy.polar.sh/polar_cl_2FCOJj0OA82YPhj2kNXq5B5Lyd6tLaUT3I5VF2hyjky'
 MONTHLY = 'https://buy.polar.sh/polar_cl_g5BD1GO6BYs2bRUYo3kjSf56NTwhfmg9c0Htf2Jf3jh'
-MAIL = '<a href="mailto:MylesCar2828@outlook.com">MylesCar2828@outlook.com</a>'
+MAIL = '<a href="mailto:swagstudios.helpdesk@outlook.com">swagstudios.helpdesk@outlook.com</a>'
 
 
 def page(name, title, body, desc=''):
