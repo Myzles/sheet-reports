@@ -1,0 +1,38 @@
+Set a report up once and it goes out on its own: every weekday at 8, every Monday, the last day of the month or every few hours. It comes from your own Gmail account, and you can always see when it last ran.
+
+WHAT YOU CAN SEND
+• A range (A1:F30), a single tab or the whole spreadsheet
+• PDF of exactly the range or tab you picked, laid out like a printout of the sheet
+• Excel (.xlsx) or CSV of exactly the cells you picked, with numbers and dates kept as numbers and dates
+• A formatted table in the email body, with colors and bold text, for people who never open attachments
+• Any mix of the above in one email
+
+WHEN IT GOES OUT
+• Daily, weekdays, chosen days of the week, monthly (including "last day of the month") or every 1 to 12 hours
+• In your spreadsheet's time zone. Daylight saving changes don't move your reports.
+• Only when it matters: skip the email when the range is empty, when nothing changed since last time, or until a cell says TRUE
+
+YOU STAY IN CONTROL
+• One list shows every schedule you own, in every spreadsheet, from any spreadsheet
+• Pause or delete takes effect immediately, even for a schedule that lives in another file
+• "Pause all my schedules" stops everything with one click
+• Each schedule shows its last run, next run and a short history of what was sent
+
+WHEN SOMETHING GOES WRONG
+• Temporary Google errors are retried on their own
+• If a report still can't be sent (a deleted tab, a typo in an address), you get one email that explains why and how to fix it, not one a day
+• If Google stops checking a file, the sidebar tells you and repairs it in one click
+
+PERSONAL TOUCHES
+• Live values in the subject, message and file name: {{date}}, {{day}}, {{month}}, {{B2}}, {{Summary!B2}}
+• Cc, Bcc, reply-to address and your own sender name
+• "Send me a test" shows exactly what your recipients will get before you save
+
+PRIVATE BY DESIGN
+Everything runs inside Google, under your account. Your data is never sent to us. We don't run any servers.
+
+PRICING
+Free: one running schedule, every format and condition.
+Pro: unlimited schedules, reports every few hours, no "Sent with" line. $6 a month or $60 a year. One key works in every spreadsheet and Google account you use.
+
+Questions: MylesCar2828@outlook.com, answered by a person within one business day.
