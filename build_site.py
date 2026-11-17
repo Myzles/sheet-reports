@@ -37,7 +37,7 @@ page('index.html', 'Scheduled Sheet Reports for Google Sheets', f'''
 <section class="wrap hero">
   <h1>Email your Google Sheets reports on a schedule. Stop them with one click.</h1>
   <p class="lead">Pick a range, a tab or the whole file. Choose PDF, Excel, CSV or a table right in the email. Pick the day and hour. It goes out from your own Gmail, and you can always see when it last ran.</p>
-  <p><span class="btn" aria-disabled="true">Coming soon to Google Workspace Marketplace</span></p><!-- LAUNCH: swap for the Marketplace install link -->
+  <p><!-- LAUNCH-INSTALL: Marketplace install button goes here after approval (Google: no coming-soon text before OAuth review) --></p>
   <p class="small">Free for one schedule. No account to create.</p>
 </section>
 
