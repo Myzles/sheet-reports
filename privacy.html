@@ -10,28 +10,50 @@
 <header class="wrap top"><a class="brand" href="./">Scheduled Sheet Reports</a><nav><a href="./#features">Features</a><a href="./#pricing">Pricing</a><a href="support.html">Support</a></nav></header>
 <main class="wrap doc">
 <h1>Privacy Policy</h1>
-<p class="small">Last updated: November 17, 2026</p>
-<p>Scheduled Sheet Reports is a Google Sheets™ add-on made by Myzles ("we"). This policy explains what the add-on can access, what it does with it, and what it never does.</p>
-<h2>What the add-on accesses, and why</h2>
+<p class="small">Last updated: November 19, 2026</p>
+<p>Scheduled Sheet Reports is a Google Sheets™ add-on made by Myzles ("we"). It emails a range, a tab or a whole spreadsheet on a schedule you set. This policy explains exactly what the add-on can access, how it uses it, who it shares it with, how it is protected and how long it is kept.</p>
+
+<h2>Data access: what the add-on reaches, scope by scope</h2>
+<p>The add-on asks for exactly seven Google permissions. This is what each one reaches, and nothing more:</p>
 <ul>
-<li><b>The spreadsheet you use it in</b> (<code>spreadsheets.currentonly</code>): to read the range, tab or file you chose to send. It cannot open your other spreadsheets.</li>
-<li><b>Files you use with the add-on</b> (<code>drive.file</code>): so Google can export that spreadsheet as a PDF or Excel file. It cannot see the rest of your Drive.</li>
-<li><b>Sending email as you</b> (<code>script.send_mail</code>): to send the reports you set up, to the addresses you typed, from your own Google account. The add-on cannot read your email.</li>
-<li><b>Running when you are not present</b> (<code>script.scriptapp</code>): one hourly timer per spreadsheet, so scheduled reports go out on time.</li>
-<li><b>Your email address</b> (<code>userinfo.email</code>): to send you test reports and a notice if a report fails.</li>
-<li><b>Showing its sidebar</b> (<code>script.container.ui</code>) and <b>connecting to an outside service</b> (<code>script.external_request</code>): used to reach Google's own export service and to check a license key with our payment provider, Polar.</li>
+<li><b>spreadsheets.currentonly</b> (view and manage the spreadsheet the add-on is installed in): the cell values, formatting, tab names and time zone of the spreadsheet you use the add-on in. It is used to read the range or tab you chose to send. To print a single tab or range as a PDF, the add-on briefly hides the other tabs (or adds a temporary tab with a copy of the range) and puts everything back right after. It cannot open any other spreadsheet.</li>
+<li><b>drive.file</b> (only the Drive files you use with this app): lets Google's own export service turn that spreadsheet into the PDF or Excel attachment. It cannot see the rest of your Drive.</li>
+<li><b>script.send_mail</b> (send email as you): sends the reports you set up from your own Google account, only to the addresses you typed, plus test emails and failure notices to you. The add-on cannot read, search or delete your email.</li>
+<li><b>script.scriptapp</b> (run when you are not present): creates one hourly timer per spreadsheet so reports go out on schedule. The timer is removed when you pause or delete your schedules.</li>
+<li><b>userinfo.email</b> (your email address): used as the address for your own test emails and failure notices, and shown in the sidebar. It is not sent anywhere else.</li>
+<li><b>script.container.ui</b> (show sidebars and dialogs): no user data. It shows the sidebar where you create and manage schedules.</li>
+<li><b>script.external_request</b> (connect to an external service): used for two kinds of HTTPS requests only: to Google's own spreadsheet export service (for the PDF/Excel attachment), and to our payment provider Polar (api.polar.sh) to check a Pro license key you paste in. The Polar request contains only that key and our organization ID.</li>
 </ul>
-<h2>How your data is used</h2>
-<p>Everything runs in Google Apps Script™, on Google's servers, under your Google account. Spreadsheet contents are read only to build the reports you scheduled, and are sent only to the recipients you entered. We never receive, store, sell or share your spreadsheet data or your recipients' addresses.</p>
-<p>Your schedules (what to send, to whom and when) and a short send history are saved in your Google account's add-on storage, which only the add-on running as you can read. If you enter a license key, it is saved there too and sent to Polar (polar.sh) to confirm it is valid. No other information goes with it.</p>
+<p>The add-on does not use aggregated or anonymized Google user data and does not create any.</p>
+
+<h2>Data use</h2>
+<p>Google user data is used only to provide the add-on's features to you: reading the cells you chose, building the report (PDF, Excel, CSV or a table in the email), sending it to your recipients at the times you set, and showing you each schedule's status and history. It is not used for advertising, profiling, analytics, credit or lending decisions, or anything else, and no person at Myzles reads it.</p>
+
+<h2>Data transfer and sharing</h2>
+<p>Spreadsheet data goes only to the email recipients <b>you</b> choose, in the reports you set up, sent from your own Google account. We never receive, sell or share your spreadsheet data, your recipients' addresses or your email address. The only outside service the add-on contacts is Polar, and it receives only a license key. No Google user data is transferred to advertisers, data brokers or any other third party.</p>
+
+<h2>Data protection</h2>
+<p>Everything runs in Google Apps Script™ on Google's servers, under your Google account, and every connection uses HTTPS. We have no servers that receive your data, so it is never copied outside Google. Your schedules are stored in the add-on's user properties, which only the add-on running as you can read. The add-on writes no spreadsheet contents to logs, analytics or third-party services.</p>
+
+<h2>Data retention and deletion</h2>
+<ul>
+<li><b>Spreadsheet data:</b> read when a report is built and not kept afterwards. Copies exist only in the emails sent to your recipients, under their control.</li>
+<li><b>Your schedules</b> (what to send, to whom, when) and a short history of the last 12 runs per schedule are kept in Apps Script user properties until you delete the schedule or uninstall the add-on. A one-time "did you rate us" marker and your license key are kept the same way.</li>
+<li><b>Deleting:</b> press Delete on a schedule in the sidebar, or use "Pause all my schedules", or uninstall the add-on (Extensions, Add-ons, Manage add-ons). You can also remove its access at myaccount.google.com/permissions. Polar keeps order records under its own policy; we delete the order details we hold within 30 days of an email request to the address below.</li>
+</ul>
+
+<h2>AI and machine learning</h2>
+<p>Google user data is never used to develop, train or improve AI or machine-learning models, and it is never sent to any AI service. Reports are built by plain code in the add-on.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>Scheduled Sheet Reports' use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
 <h2>Payments</h2>
 <p>Purchases are handled by Polar Software Inc. as merchant of record. Polar collects your name, email and payment details under its own privacy policy (polar.sh/legal/privacy). We receive your email address and order details from Polar so we can provide support.</p>
-<h2>Google user data</h2>
-<p>Scheduled Sheet Reports' use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. We do not use Google user data for advertising, and no person reads it.</p>
+
 <h2>Cookies and tracking</h2>
 <p>The add-on uses no cookies, analytics or tracking, and adds no tracking to the emails it sends. This website uses none either.</p>
-<h2>Removing your data</h2>
-<p>Delete your schedules in the sidebar, or uninstall the add-on (Extensions, Add-ons, Manage add-ons) to remove its access; its timers stop with it. To have us delete your order records, email us at the address below.</p>
+
 <h2>Contact</h2>
 <p>Questions about privacy: <a href="mailto:swagstudios.helpdesk@outlook.com">swagstudios.helpdesk@outlook.com</a></p>
 </main>
